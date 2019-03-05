@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="item"
+                type="com.vodrex.mdb.db.entities.Movie" />
+        <variable name="listener"
+                type="com.vodrex.mdb.ui.MoviesAdapter.OnClickListener"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:onClick="@{(v)-> listener.onItemClicked(v,item)}">
+
+        <ImageView
+                android:id="@+id/movie_image"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:imageUrl="@{item.posterPath}"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/poster_demo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

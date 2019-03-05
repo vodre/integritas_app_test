@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- Text Sizes. -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_navdrawer">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_medium_plus">21sp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+    <dimen name="text_size_large_plus">45sp</dimen>
+
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_extra_large">25dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="movie_profile_margin">0dp</dimen>
+    <dimen name="profile_poster_width">120dp</dimen>
+    <dimen name="movie_profile_poster_width">80dp</dimen>
+    <dimen name="app_bar_movie_profile_height">360dp</dimen>
+    <dimen name="backdrop_margin_bottom">60dp</dimen>
+    <dimen name="movie_color_view_margin">90dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_view_height_large">100dp</dimen>
+    <dimen name="margin_card_view_height">140dp</dimen>
+    <dimen name="margin_mini">10dp</dimen>
+    <dimen name="margin_micro">5dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Integritas App - Test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_popular">Popular</string>
+    <string name="title_top_rated">Top Rated</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="tv_release_year">Release Year:</string>
+
+    <!-- For Shared Element Transitions -->
+    <string name="detail_icon_transition_name" translatable="false">TN_DetailIcon</string>
+    <string name="tv_title_vote_count">Vote Count:</string>
+    <string name="tv_title_plot">Plot:</string>
+    <string name="tv_title_trailers">Trailers:</string>
+    <string name="tv_title_reviews">Reviews:</string>
+    <string name="tv_title_rating">Rating</string>
+    <string name="tv_title_popularity">Popularity:</string>
+    <string name="overview">Overview:</string>
+</resources>
